@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "WhiteAngelica";
+    src: url("./WhiteAngelica.woff2") format("woff2"),
+      url("./WhiteAngelica.woff") format("woff"),
+      url("./WhiteAngelica.ttf") format("truetype"),
+      url("./WhiteAngelica.otf") format("opentype");
+  } 
+
+  @font-face {
+    font-family: "Starfish";
+    src: url("./Starfish.otf") format("opentype");
+    src: url("./Starfish.ttf") format("truetype");
+  }
+.ang {
+    font-family: "WhiteAngelica", sans-serif;
+  }
+
+.star {
+  font-family: "Starfish", sans-serif;
+}

@@ -1,17 +1,17 @@
-import About from "../sections/About";
 import CallToAction from "../sections/CallToAction";
+import Counter from "../sections/Counter";
 import Hero from "../sections/Hero";
+import { Location } from "../sections/Location";
 import Navbar from "../sections/Navbar";
-import OurPortfolio from "../sections/OurPortfolio";
 
 const Home = () => {
   return (
     <div className="font-custom">
       <Navbar />
       <Hero />
-      <About />
+      <Counter />
+      <Location />
       <CallToAction />
-      <OurPortfolio />
     </div>
   );
 };
