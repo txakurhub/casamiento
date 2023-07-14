@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CircleText = () => {
   return (
     <div className="relative w-40 h-40 rounded-full bg-violet-500 flex flex-col items-center justify-center text-white">
