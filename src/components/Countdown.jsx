@@ -31,22 +31,22 @@ function Countdown() {
   }
 
   return (
-    <div className="grid gap-2 grid-cols-4 w-3/12">
+    <div className="grid gap-2 grid-cols-4 lg:w-3/12 py-5 text-blue">
       <div className="text-center">
-        <div className="text-4xl font-bold">{timeLeft.days}</div>
-        <div className="text-sm">días</div>
+        <div className="text-4xl lg:text-6xl font-bold">{timeLeft.days}</div>
+        <div className="text-sm font-semibold">días</div>
       </div>
       <div className="text-center">
-        <div className="text-4xl font-bold">{timeLeft.hours}</div>
-        <div className="text-sm">horas</div>
+        <div className="text-4xl lg:text-6xl font-bold">{timeLeft.hours}</div>
+        <div className="text-sm font-semibold">horas</div>
       </div>
       <div className="text-center">
-        <div className="text-4xl font-bold">{timeLeft.minutes}</div>
-        <div className="text-sm">minutos</div>
+        <div className="text-4xl lg:text-6xl font-bold">{timeLeft.minutes}</div>
+        <div className="text-sm font-semibold">minutos</div>
       </div>
       <div className="text-center">
-        <div className="text-4xl font-bold">{timeLeft.seconds}</div>
-        <div className="text-sm">segundos</div>
+        <div className="text-4xl lg:text-6xl font-bold">{timeLeft.seconds}</div>
+        <div className="text-sm font-semibold">segundos</div>
       </div>
     </div>
   );
