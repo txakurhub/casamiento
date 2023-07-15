@@ -35,13 +35,14 @@ function Header() {
   return (
     <header className="absolute w-full z-30 bg-blue">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20 font-custom">
+        <div className="flex items-center justify-between h-20 tracking-widest">
+
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="shrink-0 mr-4 relative">
             {/* Logo */}
             <a href="/" className="block" aria-label="Cruip">
-              <div className="flex items-center hover:text-purple-600 ease-in duration-300 text-white">
-                Casamiento
+              <div className="flex items-center hover:text-purple-600 ease-in duration-300 text-white ang">
+                Pol y Meli
               </div>
             </a>
           </div>
@@ -52,7 +53,7 @@ function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="#workflow"
+                  href="#counter"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Nosotros
@@ -63,19 +64,9 @@ function Header() {
                   href="#work"
                   className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Confirma tu asistencia
+                  Ayudanos
                 </a>
               </li>
-
-              <li>
-                <a
-                  href="#contact"
-                  className="text-gray-300 hover:text-gray-100 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Fotos
-                </a>
-              </li>
-
               <li>
                 <a
                   href="#about"
@@ -136,14 +127,6 @@ function Header() {
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Confirma tu asistencia
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#contact"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                  >
-                    Fotos
                   </a>
                 </li>
               </ul>
