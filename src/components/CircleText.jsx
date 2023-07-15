@@ -18,8 +18,8 @@ const CircleText = () => {
   }, []);
 
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center max-w-screen overflow-x-hidden">
-      <div className="-mb-60">
+    <div className="w-full h-full flex flex-col items-center justify-center max-w-screen overflow-hidden lg:py-10 vibrate-1">
+      <div className="-mb-60 tracking-in-expand2">
         <ReactCurvedText
           width="611"
           height="270"
@@ -39,12 +39,12 @@ const CircleText = () => {
           svgProps={{ style: { transform: "rotate(172deg)" } }}
         />
       </div>
-      <div className="mt-28 gap-10 -mb-14 flex flex-row items-center -z-10 max-w-screen">
+      <div className="mt-28 gap-10 -mb-14 flex flex-row items-center -z-50 max-w-screen">
         <img src={curve} alt="" className="hidden lg:flex" />
-        <img src={circle} alt="" className="w-full -mt-10" />
+        <img src={circle} alt="" className="w-full -mt-10 heartbeat -z-50" />
         <img src={curve} alt="" className="hidden lg:flex -scale-x-100" />
       </div>
-      <div className="-mt-60">
+      <div className="-mt-60 tracking-in-expand3">
         <ReactCurvedText
           width="668"
           height="425"
