@@ -23,9 +23,10 @@ export const Location = () => {
     
     </div>
     <div className="block lg:hidden">
-    <img src={planta} alt="" className="absolute -z-10 -bottom-20 -right-20 rotate-12 -scale-100"/>
-    <img src={planta} alt="" className="absolute -z-10 -top-40 -right-20 rotate-12 -scale-100"/>
+    <img src={planta} alt="" className="absolute -z-10 -top-20 -right-20 rotate-12 -scale-100"/>
 
+    <img src={planta2} alt="" className="absolute -z-10 -bottom-20 -left-28 -rotate-45"/>
+    <img src={planta3} alt="" className="absolute -z-10 -bottom-10 -right-32 rotate-12 -scale-100 opacity-30"/>
     </div>
     
     </div>
