@@ -1,4 +1,5 @@
 import CircleText from "../components/CircleText";
+import Poem from "../components/Poem";
 import {
   planta,
   planta1,
@@ -11,8 +12,11 @@ import {
 const Hero = () => {
   return (
     <div className="pt-20 w-full flex items-center justify-center h-full py-20 relative overflow-hidden">
-      <CircleText />
-      {/* DESKTOP */}
+      <div className="flex flex-col gap-10 h-full">
+        <Poem />
+        <CircleText />
+      </div>
+      {/* DECORATION DESKTOP */}
       <div className="hidden lg:block tracking-in-expand -z-10 motion-reduce:animate-pulse">
         <img
           src={planta}
@@ -22,13 +26,23 @@ const Hero = () => {
         <img
           src={planta}
           alt=""
-          className="absolute -left-60 top-60 opacity-70"
+          className="absolute -left-60 top-96 opacity-70"
+        />
+        <img
+          src={planta}
+          alt=""
+          className="absolute -right-20 bottom-96 opacity-70 -scale-100"
+        />
+        <img
+          src={planta}
+          alt=""
+          className="absolute -left-40 bottom-40 opacity-50 "
         />
 
         <img
           src={planta1}
           alt=""
-          className="absolute -left-20 -bottom-10 -mb-20 opacity-30"
+          className="absolute -left-60 bottom-[44rem] opacity-20 rotate-6"
         />
         <img
           src={planta1}
@@ -54,13 +68,19 @@ const Hero = () => {
         <img
           src={planta2}
           alt=""
-          className="absolute -left-40 bottom-22 -rotate-12 opacity-50"
+          className="absolute -left-60 bottom-22 -rotate-12 opacity-50"
         />
 
         <img
           src={planta3}
           alt=""
-          className="absolute -top-6 rotate-6 -left-40 opacity-50"
+          className="absolute -top-24 rotate-6 -left-60 opacity-50"
+        />
+
+        <img
+          src={planta3}
+          alt=""
+          className="absolute top-[35rem] -scale-100 rotate-45 -right-80 opacity-50"
         />
         <img
           src={planta3}
@@ -76,7 +96,7 @@ const Hero = () => {
         <img
           src={planta4}
           alt=""
-          className="absolute left-0 -bottom-52 -scale-100 -rotate-45 opacity-50"
+          className="absolute left-0 -bottom-32 -scale-100 -rotate-45 opacity-50"
         />
         <img
           src={planta4}
@@ -85,7 +105,7 @@ const Hero = () => {
         />
       </div>
 
-      {/* MOBILE */}
+      {/* DECORATION MOBILE */}
 
       <div className="block lg:hidden -z-10">
         <img
@@ -122,7 +142,6 @@ const Hero = () => {
           className="absolute -right-56 bottom-20 -scale-100 rotate-45 opacity-40 z-50"
         />
       </div>
-
       <img
         src={planta5}
         alt=""

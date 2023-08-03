@@ -6,10 +6,21 @@
     animation: heartbeat 12s ease-in-out infinite both
 }
 
-.tracking-in-expand{animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) 0.5s both}
-.tracking-in-expand2{animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) 2s both}
-.tracking-in-expand3{animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) 3s both}
-.text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
+.tracking-in-expand {
+    animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) 0.5s both
+}
+
+.tracking-in-expand2 {
+    animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) 2s both
+}
+
+.tracking-in-expand3 {
+    animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) 3s both
+}
+
+.text-focus-in {
+    animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both
+}
 
 @keyframes vibrate-1 {
     0% {
@@ -79,4 +90,19 @@
     }
 }
 
-@keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+.lectura {
+    font-family: 'Shadows Into Light', cursive;
+}
+
