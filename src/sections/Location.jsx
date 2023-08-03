@@ -4,11 +4,11 @@ import { planta, planta2, planta3, planta4 } from "../constants";
 export const Location = () => {
   return (
     <div className="lg:w-6/12 w-full flex flex-col lg:gap-5 items-center justify-center py-10 bg-blue z-50 relative overflow-hidden">
-      <h1 className="text-4xl lg:text-7xl font-black text-white z-10 py-2">
-        Cómo llegar:
+        <h1 className="text-2xl lg:text-6xl font-black text-white  z-10 ">
+        Salón La Guadalupe
       </h1>
-      <h1 className="text-xl lg:text-2xl font-black text-lila z-10 ">
-        click en el mapa
+      <h1 className="text-xl lg:text-4xl font-black text-lila z-10 py-2">
+        Cómo llegar:
       </h1>
       <Map />
       <h4 className="font-bold text-white text-2xl py-5 lg:text-4xl text-center">
