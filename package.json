@@ -12,7 +12,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-curved-text": "^2.0.2",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sweetalert2": "^11.7.20",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
