@@ -10,7 +10,7 @@ const Poem = () => {
       "Y que por eso mismo nos merecemos<br />" +
       "El beso al alba, los cosquilleos<br />" +
       "trepar montañas, seguir despiertos<br />" +
-      "la llamarada, el cielo abiero<br />" +
+      "la llamarada, el cielo abierto<br />" +
       "amar las ramas, sentirnos dentro<br />" +
       "sacar el alma, mojar el cuerpo<br />" +
       "cada calada, cada concierto<br />" +
