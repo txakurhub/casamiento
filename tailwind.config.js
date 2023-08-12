@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["WhiteAngelica", "cursive"],
+        custom: ["Willona", "cursive"],
+        imp: ["Mandala", "sans-serif"],
       },
       colors: {
         blue: "#471C95",

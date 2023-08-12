@@ -2,7 +2,7 @@ import { planta, planta2 } from "../constants";
 
 const Footer = () => {
   return (
-    <section className="bg-black w-full h-full z-50 overflow-hidden lectura relative">
+    <section className="bg-black w-full h-full z-50 overflow-hidden relative">
       <h4 className="font-bold text-2xl lg:text-5xl p-10 text-center text-lilaclaro leading-relaxed z-50 tracking-wider">
         Queremos guardar cada recuerdo <br /> nos encantaria que si subis fotos
         nos etiquetes a <br />

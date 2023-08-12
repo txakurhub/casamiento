@@ -4,7 +4,7 @@ const Poem = () => {
   const textRef = useRef(null);
 
   useEffect(() => {
-   const textElement = textRef.current;
+    const textElement = textRef.current;
     const text =
       "Que estamos aquí <br />" +
       "Y que por eso mismo nos merecemos<br />" +
@@ -34,7 +34,7 @@ const Poem = () => {
 
   return (
     <h4
-      className="text-lg lg:text-5xl text-center leading-loose lg:leading-loose font-bold h-full animate-typing"
+      className="text-2xl lg:text-7xl text-center leading-loose lg:leading-snug font-bold h-full animate-typing"
       ref={textRef}
     ></h4>
   );

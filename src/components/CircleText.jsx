@@ -27,11 +27,11 @@ const CircleText = () => {
           cy="0"
           rx="213"
           ry="194"
-          startOffset={width >= 768 ? "780" : "820"}
+          startOffset={width >= 768 ? "780" : "850"}
           reversed={true}
           text="Nos casamos"
           textProps={{
-            style: { fontSize: width >= 768 ? "58" : "48", fontWeight: "900" },
+            style: { fontSize: width >= 768 ? "78" : "48", fontWeight: "900" },
           }}
           textPathProps={{ fill: lila }}
           tspanProps={{ dy: "-11" }}
@@ -52,11 +52,15 @@ const CircleText = () => {
           cy="233"
           rx="217"
           ry="194"
-          startOffset={width >= 768 ? "769" : "795"}
+          startOffset={width >= 768 ? "680" : "785"}
           reversed={false}
           text="Pol y Meli"
           textProps={{
-            style: { fontSize: width >= 768 ? "58" : "48", fontWeight: "900" },
+            style: {
+              fontSize: width >= 768 ? "78" : "48",
+              fontWeight: "900",
+              letterSpacing: width >= 768 ? "0.8rem" : "0.4rem",
+            },
           }}
           textPathProps={{ fill: lila }}
           tspanProps={{ dy: "-11" }}

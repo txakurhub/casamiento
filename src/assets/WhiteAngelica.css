@@ -7,15 +7,25 @@
 }
 
 @font-face {
+  font-family: "Willona";
+  src: url("./Willona.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "Mandala";
+  src: url("./Mandala.otf") format(opentype);
+}
+
+@font-face {
   font-family: "Starfish";
   src: url("./Starfish.otf") format("opentype");
   src: url("./Starfish.ttf") format("truetype");
 }
 
 .ang {
-  font-family: "WhiteAngelica", sans-serif;
+  font-family: "Willona", sans-serif;
 }
 
 .star {
-  font-family: "Starfish", sans-serif;
+  font-family: "Mandala", sans-serif;
 }

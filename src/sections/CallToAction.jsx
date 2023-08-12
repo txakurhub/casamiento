@@ -33,7 +33,7 @@ const CallToAction = () => {
   };
 
   return (
-    <section className="lg:w-6/12 w-full py-10 relative -z-10 flex items-center justify-center font-bold overflow-hidden">
+    <section className="lg:w-6/12 w-full py-10 relative -z-10 flex items-center justify-center font-bold overflow-hidden star">
       {/* PLANTAS DESKTOP */}
       <div className="hidden lg:flex ">
         <img
@@ -81,10 +81,10 @@ const CallToAction = () => {
         />
       </div>
 
-      <div className="w-9/12 h-full opacity-80 flex text-center justify-center items-center flex-col lectura text-2xl lg:text-4xl tracking-widest">
+      <div className="w-9/12 h-full opacity-80 flex text-center justify-center items-center flex-col text-2xl lg:text-4xl tracking-widest">
         <div className="p-5 lg:bg-black opacity-100 flex flex-col gap-5 text-blue lg:text-lilaclaro rounded-xl h-full items-center justify-center">
           <p className="pb-2 text-center ">
-            ESE DÍA QUEREMOS QUE NOS ACOMPAÑES SIN CONDICIÓN. <br /> EL MEJOR
+            ESE DÍA QUEREMOS QUE NOS ACOMPAÑES SIN CONDICIÓN. EL MEJOR
             REGALO TU PRESENCIA PERO SI QUERÉS AYUDARNOS CON NUESTRO SUEÑO...
           </p>
           <div className="text-3xl lg:text-5xl flex flex-col items-center justify-center gap-2 text-black lg:text-white">
